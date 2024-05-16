@@ -1,0 +1,8 @@
+<form [formGroup]="group">
+    <div class="tots-form-print">
+        <div *ngFor="let field of fields" class="tots-field-main-container">
+            <mat-icon *ngIf="isHasIcon(field)">{{getIconField(field)}}</mat-icon>
+            <div class="tots-field-print-container"><tots-base-print-field [field]="field" [group]="group" [onAction]="privateActions"></tots-base-print-field></div>
+        </div>
+    </div>
+</form>

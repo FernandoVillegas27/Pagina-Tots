@@ -1,0 +1,7 @@
+{
+  "/api": {
+    "target": "https://agency-coda.uc.r.appspot.com",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

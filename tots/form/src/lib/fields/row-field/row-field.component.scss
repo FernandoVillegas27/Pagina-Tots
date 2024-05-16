@@ -1,0 +1,28 @@
+.tots-row-field {
+    display: flex;
+}
+
+.tots-field-main-container {
+    display: flex;
+    width: 100%;
+    margin-left: 24px;
+
+    tots-base-print-field {
+        width: 1px;
+        display: none;
+    }
+
+    mat-icon {
+        width: 24px;
+        margin-top: 14px;
+        margin-right: 20px;
+    }
+
+    .tots-field-print-container {
+        width: 100%;
+    }
+}
+
+.tots-field-main-container:first-child {
+    margin-left: 0;
+}

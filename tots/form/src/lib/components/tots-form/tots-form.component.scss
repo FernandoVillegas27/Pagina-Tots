@@ -1,0 +1,19 @@
+.tots-field-main-container {
+    display: flex;
+    width: 100%;
+
+    tots-base-print-field {
+        width: 1px;
+        display: none;
+    }
+
+    mat-icon {
+        width: 24px;
+        margin-top: 14px;
+        margin-right: 20px;
+    }
+
+    .tots-field-print-container {
+        width: 100%;
+    }
+}

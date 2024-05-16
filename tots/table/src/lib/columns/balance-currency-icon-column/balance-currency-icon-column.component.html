@@ -1,0 +1,5 @@
+<span [ngClass]="{'tots-balance-column-positive': getBalance() > 0, 'tots-balance-column-negative': getBalance() < 0}">
+    <mat-icon *ngIf="getBalance() > 0">{{getIconPositive()}}</mat-icon>
+    <mat-icon *ngIf="getBalance() < 0">{{getIconNegative()}}</mat-icon>
+    <mat-icon *ngIf="getBalance() == 0">{{getIconNeutral()}}</mat-icon>
+</span>

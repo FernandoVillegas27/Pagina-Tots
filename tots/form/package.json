@@ -1,0 +1,11 @@
+{
+  "name": "@tots/form",
+  "version": "15.0.63",
+  "peerDependencies": {
+    "@angular/common": "^15.0.3",
+    "@angular/core": "^15.0.3"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
